@@ -10,7 +10,8 @@ module.exports = {
       },
       backgroundColor: {
         'gray-warm': '#C4C4C4',
-        'gray-cold': '#9D9D9D'
+        'gray-cold': '#9D9D9D',
+        app: '#ECECEC'
       }
     },
     fontFamily: {

@@ -14,7 +14,7 @@ const Home: React.FC = () => {
 
 const SectionFrist: React.FC = () => {
   return (
-    <div className="grid py-20 lg:grid-cols-2">
+    <div className="grid px-10 py-20 lg:grid-cols-2 lg:px-0">
       {/* left */}
       <div className="flex flex-col justify-center mr-32">
         <div className="flex flex-col space-y-6">
@@ -45,7 +45,7 @@ const SectionFrist: React.FC = () => {
 
 const SectionSecond: React.FC = () => {
   return (
-    <div className="grid grid-cols-3 gap-10 py-20">
+    <div className="grid gap-10 px-10 py-20 md:grid-cols-2 lg:grid-cols-3 lg:px-0">
       {/* left */}
       <div className="flex flex-col space-y-2">
         <h1 className="text-lg font-black">Header Text</h1>
@@ -57,7 +57,7 @@ const SectionSecond: React.FC = () => {
       </div>
 
       {/* middle */}
-      <div className="aspect-square bg-gray-warm"></div>
+      <div className="hidden aspect-square bg-gray-warm lg:block"></div>
 
       {/* right */}
       <div className="flex flex-col justify-end">
