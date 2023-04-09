@@ -4,7 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        app: '#636262'
+      },
+      backgroundColor: {
+        'gray-warm': '#C4C4C4',
+        'gray-cold': '#9D9D9D'
+      }
+    },
     fontFamily: {
       dmsans: ["dmsans", "sans-serif"]
     }

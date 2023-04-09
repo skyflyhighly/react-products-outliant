@@ -28,7 +28,7 @@ const navs = [
 
 const Navbar: React.FC = () => {
   return (
-    <div className="sticky top-0 z-50 flex items-center justify-between w-full h-20">
+    <div className="sticky top-0 z-50 flex items-center justify-between w-full h-20 backdrop-blur">
       <Logo />
       <NavLinks />
       <Button>Call to Action</Button>

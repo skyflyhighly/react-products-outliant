@@ -9,7 +9,7 @@ interface LinkProps {
 const Link: React.FC<LinkProps> = ({ name, path }) => {
   return (
     <a
-      className="text-sm font-bold text-gray-500 transition hover:text-black"
+      className="text-sm font-bold transition text-app hover:text-black"
       href={path}
     >
       {name}

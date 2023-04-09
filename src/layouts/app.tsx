@@ -3,12 +3,17 @@ import { Outlet } from "react-router-dom";
 
 // components
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const AppLayout: React.FC = () => {
   return (
-    <div className="max-w-5xl mx-auto font-dmsans">
-      <Navbar></Navbar>
-      <Outlet />
+    <div className=" font-dmsans">
+      <div className="max-w-5xl mx-auto">
+        <Navbar />
+        <Outlet />
+      </div>
+
+      <Footer />
     </div>
   );
 };
